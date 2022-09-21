@@ -1,3 +1,9 @@
+"""
+    Welcome to the Tic-Tac-Toe game.
+    Author: Prince C Chukwu
+    Class: CSE210
+"""
+
 def main():
     game = Director()
     game.playGame()
