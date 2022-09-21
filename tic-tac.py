@@ -134,7 +134,7 @@ class Director:
             if self.board.checkWin():
                 self.winner = self.player.player
                 self.board.displayBoard()
-                print(f" {self.winner} wins! Congratulations!\n")
+                print(f"{self.winner} wins! Congratulations!\n")
                 self.keep_playing = False
 
             # Check Tie.
